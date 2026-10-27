@@ -1,0 +1,15 @@
+class fruits:
+    name = "fruits"
+    cost = 20
+    def abc(self):
+        mango = 20 
+    def apple(self):
+            print("apple")
+    def banana(self):
+            print("banana")
+s1 = fruits()
+print(s1.name)
+print(s1.cost)
+s1.abc()
+s1.apple()
+s1.banana()
