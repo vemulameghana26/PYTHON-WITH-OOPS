@@ -1,0 +1,15 @@
+class wifi:
+   def working(self):
+       print("working in it")
+class user1:
+    def series(self):
+        print(" user1 watching series")
+class user2:
+    def playing(self):
+        print(" user2 playing games")
+w=wifi()
+w1=user1()
+w2=user2()
+w.working()
+w1.series()
+w2.playing()
