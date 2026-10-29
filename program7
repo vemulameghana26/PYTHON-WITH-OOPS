@@ -1,0 +1,9 @@
+class student:
+    name="kprit"
+    age=12
+class OU(student):
+    branch="cse"
+S1=OU()
+print(S1.name)
+print(S1.age)
+print(S1.branch)
