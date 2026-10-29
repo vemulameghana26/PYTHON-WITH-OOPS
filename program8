@@ -1,0 +1,16 @@
+class restaurant:
+    name = "abc"
+    rating = "4.5"
+    city = "uppal"
+class bcd(restaurant):
+    def name(self):
+       print("name")
+    def rating(self):
+       print("rating")
+    def  village(self):
+       print("city")
+    a1 = restaurant
+    print(a1.name) 
+    print(a1.rating)
+    print(a1.city)
+    
